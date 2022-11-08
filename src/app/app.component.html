@@ -1,0 +1,16 @@
+<app-portal-window>
+    <div (click)="onClick()">
+        <img class="mole" [src]="imgUrl" alt="mole" width="160" height="120"/>
+    </div>
+</app-portal-window>
+<div class="score">
+    <div>
+        Score:
+    </div>
+    <div>
+        {{score}}
+    </div>
+    <div>
+        <button (click)="stop()">Stop the crazy mole!</button>
+    </div>
+</div>
